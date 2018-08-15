@@ -12,7 +12,7 @@ body {
 
 }
 
-header {
+/* header {
     position:fixed;
     z-index: 1;
     width: 100%;
@@ -22,27 +22,36 @@ header {
     margin: 0;
     height: 70px;
     background-color: #ffffff;
-}
+} */
 .navbar {
     /* width: 960px; */
     float: center;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    height: 70px;
 }
 
+/* .navbar {
+    width: 960px;
+    float: center;
+    padding: 20px;
+    border: 20px;
+    margin: auto;
+    background-color: #ffffff;
+} */
 
 .navbar-brand {
- 
-    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 
-
-
-.container {
-    width: 960px;
+.content {
     float: center;
     padding: 20px;
     border: 20px;
