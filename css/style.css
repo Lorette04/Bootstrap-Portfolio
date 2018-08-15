@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    color: #777777;
+    background-image: url(../images/qbkls/qbkls.png);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 70px;
+    background-color: #ffffff;
+}
+.navbar {
+    width: 960px;
+    float: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-brand {
+    margin: 0;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+width: 960px;
+    float: center;
+    padding: 20px;
+    border: 20px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: #4aaaa5;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.ccol-lg-4 col-sm-6 {
+    position: relative;
+    float: left;
+    padding-bottom: 15px;
+    max-width: 50%;
+    height: auto;
+}
+
+.card-title {
+    position: absolute;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    background-color: #4aaaa5;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/* Style for FOOTER  */
+footer {
+    width: 100%;
+    height: 70px;
+ }
+
+.border {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.border1 {
+   height: 10px;
+   background: #4aaaa5;
+}
+
+.border2 {
+    height: 50px;
+    background: #666666;
+}
